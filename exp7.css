@@ -1,0 +1,50 @@
+body {
+  margin: 20px;
+  border: 1px solid #000;
+  font-family: 'Times New Roman', serif;
+}
+
+header {
+  background: #d3d3d3;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+header h1 span {
+  color: red;
+}
+
+.nav {
+  margin: 15px 0;
+}
+
+.nav a {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 10px;
+  text-decoration: none;
+  border: 1px solid #999;
+  font-size: 15px;
+}
+
+/* Top navigation (blue buttons) */
+.top-nav a {
+  background: #add8e6;
+  color: #00008b;
+}
+
+/* Bottom navigation (green buttons) */
+.bottom-nav a {
+  background: #98fb98;
+  color: #006400;
+}
+
+/* Hover effect */
+.nav a:hover {
+  opacity: 0.8;
+}
